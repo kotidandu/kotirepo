@@ -1,0 +1,47 @@
+1.have you ever created a IAM custom policies? 
+   ans: To create your own IAM policy
+
+               Sign in to the AWS Management Console and open the IAM console at https://console.aws.amazon.com/iam/.
+
+                  Choose Policies, and then choose Create Policy. If a Get Started button appears, choose it, and then choose Create Policy.
+
+                 Next to Create Your Own Policy, choose Select.
+
+                For Policy Name, type any value that is easy for you to refer to later. Optionally, type descriptive text in Description.
+
+                   For Policy Document, type a policy statement with the following format, and then choose Create Policy:
+
+
+
+2.why you creted a custom policies or what is requirement for the client for creation of custom policies?
+3.suppose i have a two account in my project first one is aws account for production and second aws account for sandbox i have some server which is running production account i want to migrate the server from production to sandbox? 
+   ans:we create the AMI from the ami machine we can move the different aws accounts or different regions also.
+4.in production acount i have one vpc and in sandbox account i have an another vpc, how to make the connection between production vpc to sandbox vpc?
+5.i have a requirement for the client they are planning to stop my public access to my ec2 instances, because those are DB server what can you do atthis time?
+ ans: for this we have created two subnets one is public and another one is pvt subnet ,in private subnet we need put the dbserver and in the public subnet we need to created NAT gateway with the help of the NAT gateway we can stop the public access to server.   
+6.i have a s3 bucket with me, in that s3 bucket every 30 days i need to move my data from s3 standards to glacier,is there any way available?
+7.in autoscaling, what are the pre reqirisations?
+8.can you teel me something when you have around 10 or 20 aws account it will be really difficult to manage a building ans each and every account is there any optimized way to manage bulk number of account?  
+                                   or 
+  how do you manage multiple aws accounts?
+9.in your project what types of instances you majorly using?
+10.suppose you are using t2.micro instances type they want to upgrade instance type how to upgrade that?
+11. what are the devops tools you are working?
+12.what is diffrence between NACL and security group?what scenario you go to NACL and what scenario you go to SG?
+13.in what scenario you have created customized IAM policies?
+14.could you tell me about IAM structure?
+15.what is MFA?
+16.what is the difference between private bucket and public bucket?
+17.in what case you recommended to customer to go with elastic ip?
+ ans: elastic ip they have one website they want to access the website,
+      they want to configure with particular url in that case we can go with the elastic ip.
+18.can you tell me difference between snapchat and ami(amazon machine image)?
+19.for example i am owning one aws account you are created a master account  i added my account under your master accountso now right there is a problem if i feel anytime from my acount i can click on leave organisation ?
+ ans :
+       there is one option is there  we configure it we can create a one policy  we can attach that policy to the oraganisation.
+       then other account person should not leave from my master account.  
+20.can you tell me end to end networking infrastructure?
+21.have you have experience with load balancer and auto scaling?
+22.what are the services you are using in aws?
+23.what type of encryptions available in aws?
+24
